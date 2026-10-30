@@ -1,9 +1,9 @@
-"use strict";
+'use strict';
 
 function filterArray(numbers, value) {
   const item = [];
 
-  for (let i = 0; i <= numbers.length; i += 1) {
+  for (let i = 0; i < numbers.length; i += 1) {
     if (numbers[i] > value) {
       item.push(numbers[i]);
     }
